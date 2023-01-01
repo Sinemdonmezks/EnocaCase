@@ -49,14 +49,14 @@ public class DefaultDataImpl {
 
 
         Employee employee1=Employee.builder()
-                .name("sezer")
-                .surname("Turkmen")
-                .email("sezerlucianturkmen@gmail.com")
+                .name("Alice")
+                .surname("Tor")
+                .email("alice@gmail.com")
                 .company(company3)
-                .gender(EGender.MALE)
+                .gender(EGender.FAMALE)
                 .position("Full Stack Java Developer")
-                .address("Istanbul")
-                .age(30)
+                .address("TURKEY")
+                .age(24)
                 .build();
         employeeService.save(employee1);
 
@@ -73,11 +73,11 @@ public class DefaultDataImpl {
         employeeService.save(employee2);
 
         Employee employee3=Employee.builder()
-                .name("Roberta")
+                .name("Carlo")
                 .surname("Ferrari")
-                .email("ferrari@gmail.com")
+                .email("carlo@gmail.com")
                 .company(company1)
-                .gender(EGender.FEMALE)
+                .gender(EGender.MALE)
                 .position("UX Designer")
                 .age(25)
                 .address("Roma")
@@ -85,21 +85,21 @@ public class DefaultDataImpl {
         employeeService.save(employee3);
 
         Employee employee4=Employee.builder()
-                .name("Aylin")
-                .surname("Yol")
-                .email("yolyol@gmail.com")
+                .name("Su")
+                .surname("EVA")
+                .email("eva@gmail.com")
                 .company(company2)
                 .gender(EGender.FEMALE)
                 .position("BackEnd Developer")
                 .age(27)
-                .address("Istanbul")
+                .address("Bursa")
                 .build();
         employeeService.save(employee4);
 
         Employee employee5=Employee.builder()
-                .name("Mustafa")
-                .surname("Can")
-                .email("canmustafa@gmail.com")
+                .name("Jack")
+                .surname("Swift")
+                .email("swift@gmail.com")
                 .company(company3)
                 .gender(EGender.MALE)
                 .position("FrontEnd Developer")
